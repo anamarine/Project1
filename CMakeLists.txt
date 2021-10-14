@@ -21,7 +21,7 @@ INCLUDE_DIRECTORIES(tests)
 
 
 ADD_EXECUTABLE(Project1
-        tests/test2.cpp
+        tests/test1.cpp
         )
 
 find_package(Boost

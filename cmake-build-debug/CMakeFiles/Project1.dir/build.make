@@ -66,27 +66,27 @@ include CMakeFiles/Project1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project1.dir/flags.make
 
-CMakeFiles/Project1.dir/tests/test2.cpp.o: CMakeFiles/Project1.dir/flags.make
-CMakeFiles/Project1.dir/tests/test2.cpp.o: ../tests/test2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project1.dir/tests/test2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1.dir/tests/test2.cpp.o -c /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test2.cpp
+CMakeFiles/Project1.dir/tests/test1.cpp.o: CMakeFiles/Project1.dir/flags.make
+CMakeFiles/Project1.dir/tests/test1.cpp.o: ../tests/test1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project1.dir/tests/test1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1.dir/tests/test1.cpp.o -c /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test1.cpp
 
-CMakeFiles/Project1.dir/tests/test2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1.dir/tests/test2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test2.cpp > CMakeFiles/Project1.dir/tests/test2.cpp.i
+CMakeFiles/Project1.dir/tests/test1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1.dir/tests/test1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test1.cpp > CMakeFiles/Project1.dir/tests/test1.cpp.i
 
-CMakeFiles/Project1.dir/tests/test2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1.dir/tests/test2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test2.cpp -o CMakeFiles/Project1.dir/tests/test2.cpp.s
+CMakeFiles/Project1.dir/tests/test1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1.dir/tests/test1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test1.cpp -o CMakeFiles/Project1.dir/tests/test1.cpp.s
 
 # Object files for target Project1
 Project1_OBJECTS = \
-"CMakeFiles/Project1.dir/tests/test2.cpp.o"
+"CMakeFiles/Project1.dir/tests/test1.cpp.o"
 
 # External object files for target Project1
 Project1_EXTERNAL_OBJECTS =
 
-Project1: CMakeFiles/Project1.dir/tests/test2.cpp.o
+Project1: CMakeFiles/Project1.dir/tests/test1.cpp.o
 Project1: CMakeFiles/Project1.dir/build.make
 Project1: /usr/local/lib/libboost_unit_test_framework-mt.dylib
 Project1: /usr/local/lib/libboost_system-mt.dylib
