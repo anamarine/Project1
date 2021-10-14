@@ -11,8 +11,9 @@ using namespace boost::timer;
 
 using Eigen::MatrixXd;
 
-int main()
-{
+int main(){
+    cpu_timer timer0;
+
     std::cout << "_________________________________________" << std::endl;
     std::cout << "     SW DEVELOPMENT TOOLS & METHODS      " << std::endl;
     std::cout << "                PROJECT 1                " << std::endl;
@@ -27,11 +28,14 @@ int main()
     std::cout << "\n Creating random matrix 2, m2" << std::endl;
     MatrixXd m2 = MatrixXd::Random(size,size);
     std::cout << m2 << std::endl;
+    std::cout << "\n Creating random vector, v" << std::endl;
+    VectorXd v = VectorXd::Random(size);
 
     std::cout << "_________________________________________" << std::endl;
     std::cout << "Executing Test 1 - addition & subtraction" << std::endl;
     std::cout << "_________________________________________" << std::endl;
 
+    cpu_timer timer0;
     cpu_timer timer;
     std::cout << "Executing m1 + m2..." << std::endl << std::endl;
     MatrixXd m3 = m1 + m2;
@@ -57,7 +61,6 @@ int main()
 
     timer.start();
     std::cout << "Multiplying by a vector v" << std::endl;
-    VectorXd v = VectorXd::Random(size);
     cout << "Executing m1 * v..." << std::endl;
     m3 = m1 * v;
     std::cout << m3 << std::endl;
@@ -77,6 +80,7 @@ int main()
     m3 = m1 * m2;
     std::cout << m3 << std::endl;
     string t6 = timer.format();
+    string t0 = timer0.format();
 
 
     std::cout << "\n_________________________________________" << std::endl;
@@ -88,4 +92,5 @@ int main()
     std::cout << "m1 * v" << endl << t4 << '\n';
     std::cout << "m2 * s" << endl << t5 << '\n';
     std::cout << "m1 * m2" << endl << t6 << '\n';
+    std::cout << "\nTotal execution time:" << endl << t0 << '\n';
 }

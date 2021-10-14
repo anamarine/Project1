@@ -142,29 +142,29 @@ Eigen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Eigen.dir/build.make CMakeFiles/Eigen.dir/build
 .PHONY : Eigen/fast
 
-tests/test1.o: tests/test1.cpp.o
-.PHONY : tests/test1.o
+tests/test3.o: tests/test3.cpp.o
+.PHONY : tests/test3.o
 
 # target to build an object file
-tests/test1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test1.cpp.o
-.PHONY : tests/test1.cpp.o
+tests/test3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test3.cpp.o
+.PHONY : tests/test3.cpp.o
 
-tests/test1.i: tests/test1.cpp.i
-.PHONY : tests/test1.i
+tests/test3.i: tests/test3.cpp.i
+.PHONY : tests/test3.i
 
 # target to preprocess a source file
-tests/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test1.cpp.i
-.PHONY : tests/test1.cpp.i
+tests/test3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test3.cpp.i
+.PHONY : tests/test3.cpp.i
 
-tests/test1.s: tests/test1.cpp.s
-.PHONY : tests/test1.s
+tests/test3.s: tests/test3.cpp.s
+.PHONY : tests/test3.s
 
 # target to generate assembly for a file
-tests/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test1.cpp.s
-.PHONY : tests/test1.cpp.s
+tests/test3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/tests/test3.cpp.s
+.PHONY : tests/test3.cpp.s
 
 # Help Target
 help:
@@ -176,9 +176,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Eigen"
 	@echo "... Project1"
-	@echo "... tests/test1.o"
-	@echo "... tests/test1.i"
-	@echo "... tests/test1.s"
+	@echo "... tests/test3.o"
+	@echo "... tests/test3.i"
+	@echo "... tests/test3.s"
 .PHONY : help
 
 

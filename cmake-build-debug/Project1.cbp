@@ -104,7 +104,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test1.cpp">
+		<Unit filename="/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/tests/test3.cpp">
 			<Option target="Project1"/>
 		</Unit>
 		<Unit filename="/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/CMakeLists.txt">
