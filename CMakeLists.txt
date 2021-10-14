@@ -21,7 +21,7 @@ INCLUDE_DIRECTORIES(tests)
 
 
 ADD_EXECUTABLE(Project1
-        tests/test3.cpp
+        tests/test2.cpp
         )
 
 find_package(Boost
@@ -29,5 +29,13 @@ find_package(Boost
         )
 target_link_libraries(Project1 ${Boost_LIBRARIES})
 INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
+
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+
+set(CMAKE_CXX_FLAGS_RELEASE "-O2")
+#set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+
+#set(CMAKE_SYSTEM_PROCESSOR arm64)
+set(CMAKE_SYSTEM_PROCESSOR x86_64)
 
 

@@ -35,7 +35,6 @@ int main(){
     std::cout << "Executing Test 1 - addition & subtraction" << std::endl;
     std::cout << "_________________________________________" << std::endl;
 
-    cpu_timer timer0;
     cpu_timer timer;
     std::cout << "Executing m1 + m2..." << std::endl << std::endl;
     MatrixXd m3 = m1 + m2;
