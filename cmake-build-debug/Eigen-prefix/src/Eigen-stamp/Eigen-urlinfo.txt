@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://gitlab.com/libeigen/eigen/-/releases/3.4.0'
+tag=''

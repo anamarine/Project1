@@ -1,0 +1,4 @@
+/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/Project1.dir
+/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/Eigen.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/boost"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/boost.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/boost-complete.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-build.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-configure.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-download.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-install.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-mkdir.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-patch.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/boost-prefix/src/boost-stamp/boost-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost"
+		],
+		"name" : "boost"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/Eigen"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/Eigen.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/CMakeFiles/Eigen-complete.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-build.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-configure.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-download.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-install.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-mkdir.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-patch.rule"
+		},
+		{
+			"file" : "/Users/Anita/Documents/HMDA/Semester_3/Software_Development_Tools_and_Methods/Project1/cmake-build-debug/Eigen-prefix/src/Eigen-stamp/Eigen-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Eigen"
+		],
+		"name" : "Eigen"
+	}
+}
